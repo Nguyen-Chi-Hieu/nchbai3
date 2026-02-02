@@ -2,6 +2,7 @@ import React from "react";
 import "./SubjectList.css"
     function SubjectList(props) {
         return (
+            <>
             <div className="subject-container">
                 <h2 className="subject-title">Danh sách môn học</h2>
                 <ul className="subject-list">
@@ -12,6 +13,7 @@ import "./SubjectList.css"
                     ))}
                 </ul>
             </div>
+            </>
         );
     }
     export default SubjectList;
