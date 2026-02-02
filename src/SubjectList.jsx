@@ -1,5 +1,5 @@
 import React from "react";
-import "./SubjectList.css";
+import "./SubjectList.css"
     function SubjectList(props) {
         return (
             <div className="subject-container">
